@@ -1,6 +1,6 @@
 # React app with weather forecast and maps
  </bc>
- <img src="./Weather-app.gif" alt="Weather-app" height="720">
+ <img src="./Weather-app.gif" alt="Weather-app" height="360">
 
 ## Starting the app
 
