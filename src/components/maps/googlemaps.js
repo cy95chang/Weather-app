@@ -12,8 +12,17 @@ const Googlemaps = ({ data }) => {
   const center = { lat: data.coord.lat, lng: data.coord.lon };
   return (
     <div className="map-container">
-      <GoogleMap zoom={8} center={center} mapContainerClassName="map-container">
-      </GoogleMap>
+      <GoogleMap
+        zoom={8}
+        center={center}
+        mapContainerClassName="map-container"
+        options={{
+          zoomControl: true,
+          streetViewControl: false,
+          mapTypeControl: false,
+          fullscreenControl: false,
+        }}
+      ></GoogleMap>
     </div>
   );
 };
