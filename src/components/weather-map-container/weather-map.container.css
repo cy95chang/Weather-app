@@ -1,0 +1,4 @@
+.weather-map-container {
+    display: flex;
+    justify-content: center;
+}
