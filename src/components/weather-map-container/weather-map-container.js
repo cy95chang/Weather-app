@@ -7,7 +7,7 @@ const WeatherMapContainer = (props) => {
         
         {props.currentWeatehr && <CurrentWeather data={props.currentWeatehr} />}
         {/* {props.currentWeatehr && <CurrentWeather data={props.currentWeatehr} />} */}
-        <Googlemaps data={props.currentWeatehr} /> 
+        {props.currentWeatehr && <Googlemaps data={props.currentWeatehr} /> }
 
     </div>
 }
